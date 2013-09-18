@@ -1,0 +1,3 @@
+[submodule "clang-complete"]
+	path = clang-complete
+	url = https://github.com/vim-scripts/clang-complete.git
