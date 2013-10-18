@@ -1,3 +1,6 @@
 [submodule "clang-complete"]
 	path = clang-complete
 	url = https://github.com/vim-scripts/clang-complete.git
+[submodule "Conque-Shell"]
+	path = Conque-Shell
+	url = https://github.com/vim-scripts/Conque-Shell.git
