@@ -1,0 +1,11 @@
+set mouse=a
+execute "set colorcolumn=".join(range(81,335),',')
+:hi ColorColumn ctermbg=black ctermfg=green
+let g:clang_library_path="/usr/lib"
+let g:clang_use_library=1
+let g:clang_auto_select=1
+let g:clang_complete_copen=1
+let g:clang_snippets=1
+let g:clang_periodic_quickfix=1
+command Clu call g:ClangUpdateQuickFix()
+:NERDTree
