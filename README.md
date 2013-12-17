@@ -1,4 +1,4 @@
 janus
 =====
 
-Customization for my ~/.janus account
+Customization for my janus(https://github.com/carlhuda/janus).
