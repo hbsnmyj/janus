@@ -1,7 +1,15 @@
 set ttymouse=xterm2
 set mouse=a
+
+set t_Co=256
+set background=dark
+colorscheme solarized
+
 execute "set colorcolumn=".join(range(81,335),',')
-:hi ColorColumn ctermbg=black ctermfg=green
+:hi ColorColumn ctermbg=black
+
+set completeopt=longest,menuone,preview
+
 let g:clang_library_path="/usr/lib"
 let g:clang_use_library = 1
 let g:clang_auto_select = 1
