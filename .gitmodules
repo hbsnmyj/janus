@@ -4,3 +4,18 @@
 [submodule "Conque-Shell"]
 	path = Conque-Shell
 	url = https://github.com/vim-scripts/Conque-Shell.git
+[submodule "wombat256.vim"]
+	path = wombat256.vim
+	url = https://github.com/vim-scripts/wombat256.vim
+[submodule "xoria256.vim"]
+	path = xoria256.vim
+	url = https://github.com/vim-scripts/xoria256.vim
+[submodule "ir_black"]
+	path = ir_black
+	url = https://github.com/twerth/ir_black.git
+[submodule "vim-colors-solarized"]
+	path = vim-colors-solarized
+	url = https://github.com/altercation/vim-colors-solarized
+[submodule "AutoComplPop"]
+	path = AutoComplPop
+	url = https://github.com/vim-scripts/AutoComplPop.git
