@@ -18,11 +18,13 @@ let g:clang_snippets=1
 let g:syntastic_cpp_compiler_options='-std=c++11'
 let c_no_curly_error=1
 command CLu call g:ClangUpdateQuickFix()
+command Ast call s:Autoformat()
 au BufNewFile,BufRead *.cuh set ft=cuda
 
 set guioptions-=m
 set guioptions-=T
 set guioptions-=r
+
 
 if version >= 700
 function! HOpen(dir,what_to_open)

@@ -1,0 +1,1 @@
+let g:formatprg_args_cpp="--style=java -s2 -S -L -Y -p -O"

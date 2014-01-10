@@ -19,3 +19,6 @@
 [submodule "AutoComplPop"]
 	path = AutoComplPop
 	url = https://github.com/vim-scripts/AutoComplPop.git
+[submodule "vim-autoformat"]
+	path = vim-autoformat
+	url = https://github.com/Chiel92/vim-autoformat.git
