@@ -17,8 +17,19 @@ let g:clang_complete_copen = 1
 let g:clang_snippets=1
 let g:syntastic_cpp_compiler_options='-std=c++11'
 let c_no_curly_error=1
+
+function! ClangGetPrototype()
+  let curr_line = getline('.')
+  let r1 = substitute(curr_line, '<#', '', 'g')
+  call setline('.', r1)
+  let curr_line = getline('.')
+  let r1 = substitute(curr_line, '#>', '', 'g')
+  call setline('.', r1)
+endfunction
+
 command CLu call g:ClangUpdateQuickFix()
 command Ast call s:Autoformat()
+command CLp call ClangGetPrototype()
 au BufNewFile,BufRead *.cuh set ft=cuda
 
 set guioptions-=m
