@@ -22,3 +22,21 @@
 [submodule "vim-autoformat"]
 	path = vim-autoformat
 	url = https://github.com/Chiel92/vim-autoformat.git
+[submodule "vim-protodef"]
+	path = vim-protodef
+	url = https://github.com/derekwyatt/vim-protodef.git
+[submodule "vim-fswitch"]
+	path = vim-fswitch
+	url = https://github.com/derekwyatt/vim-fswitch.git
+[submodule "vim-surround"]
+	path = vim-surround
+	url = https://github.com/tpope/vim-surround.git
+[submodule "vim-autoclose"]
+	path = vim-autoclose
+	url = https://github.com/Townk/vim-autoclose.git
+[submodule "doxygen-support.vim"]
+	path = doxygen-support.vim
+	url = https://github.com/vim-scripts/doxygen-support.vim.git
+[submodule "DoxygenToolkit.vim"]
+	path = DoxygenToolkit.vim
+	url = https://github.com/vim-scripts/DoxygenToolkit.vim.git

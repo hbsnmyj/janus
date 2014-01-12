@@ -8,7 +8,7 @@ colorscheme solarized
 execute "set colorcolumn=".join(range(81,335),',')
 :hi ColorColumn ctermbg=black
 
-set completeopt=longest,menuone,preview
+set completeopt=longest,preview
 
 let g:clang_library_path="/usr/lib"
 let g:clang_use_library = 1
@@ -90,6 +90,7 @@ noremap <c-w>ph :call HPasteWindow('left')<cr>
 noremap <c-w>pl :call HPasteWindow('right')<cr>
 noremap <c-w>pp :call HPasteWindow('here')<cr>
 noremap <c-w>P :call HPasteWindow('here')<cr>
+
 
 endif
 
