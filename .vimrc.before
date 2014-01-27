@@ -1,2 +1,2 @@
 let g:DoxygenTOolkit_authorName="Haoyuan Xing"
-let g:formatprg_args_cpp="--style=java -s2 -S -L -Y -p -O"
+let g:formatprg_args_cpp="--style=java -s2 -S -L -Y -p -O -xC80"

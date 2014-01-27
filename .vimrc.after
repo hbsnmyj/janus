@@ -8,7 +8,7 @@ colorscheme solarized
 execute "set colorcolumn=".join(range(81,335),',')
 :hi ColorColumn ctermbg=black
 
-set completeopt=longest,preview
+set completeopt=longest,menuone
 
 let g:clang_library_path="/usr/lib"
 let g:clang_use_library = 1
@@ -95,3 +95,5 @@ noremap <c-w>P :call HPasteWindow('here')<cr>
 endif
 
 :NERDTree
+let g:syntastic_c_check_header = 1
+let g:syntastic_cpp_check_header = 1
