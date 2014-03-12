@@ -97,3 +97,5 @@ endif
 let g:syntastic_c_check_header = 1
 let g:syntastic_cpp_check_header = 1
 silent! nmap <F3> :NERDTreeFind<CR>
+
+set clipboard=exclude:.*
